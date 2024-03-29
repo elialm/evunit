@@ -222,7 +222,7 @@ stack = [ 0x04, 0x71, 0xff, "\n" ]
 Due note that values are pushed to the stack in reverse.
 As an example, the initial values on the stack for the example above look like the following (assuming `sp` = `0xD000`):
 
-```
+```txt
 | Address | Data         |
 | ------- | ------------ |
 | 0xCFFF  | 0x0A         |
