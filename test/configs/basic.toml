@@ -1,0 +1,8 @@
+# sp = 0xD000
+caller = 0x0100
+exit = "exit"
+
+[test1]
+a = 9
+[test1.result]
+a = 10

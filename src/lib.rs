@@ -8,6 +8,7 @@ pub mod memory;
 pub mod prelude;
 pub mod registers;
 pub mod test;
+pub mod config_parser;
 
 use crate::log::{Logger, SilenceLevel};
 use crate::memory::AddressSpace;

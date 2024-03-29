@@ -15,9 +15,12 @@ clap = { version = "4.4.6", features = ["derive"] }
 gb-cpu-sim = "1.0.0"
 gb-sym-file = "1.0.1"
 paste = "1.0.9"
-serde = "1.0.197"
+serde = { version = "1.0.197", features = ["derive"] }
 thiserror = "1.0.49"
 toml = { version = "0.8.1", features = ["preserve_order"] }
 
 [profile.release]
 lto = true
+
+[dev-dependencies]
+pretty_assertions = "1.4.0"
